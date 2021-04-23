@@ -3,8 +3,6 @@
 sequentially from 0 to n - 1 and each box may contain keys to the other
 boxes.
 '''
-from time import sleep
-
 
 def canUnlockAll(boxes):
     '''method that determines if all the boxes can be opened.
