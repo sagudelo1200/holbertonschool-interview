@@ -23,10 +23,10 @@ def resume():
     '''
     print statistics
     '''
-    print(f'File size: {total_size["size"]}')
+    print('File size: {}'.format(total_size['size']))
     for key in sorted(codes.keys()):
         if codes[key] > 0:
-            print(f'{key}: {codes[key]}')
+            print('{}: {}'.format(key, codes[key]))
 
 
 def calc_metrics(line):
